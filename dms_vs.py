@@ -177,8 +177,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     print("int_job_id:",args.int_job_id)
 
-    data = vs_g(2521)
-    # data=vs_g(args.int_job_id)
+    # data = vs_g(2521)
+    data=vs_g(args.int_job_id)
 
     print("输入'g'退出窗口！\n输入's'提交比对结果！")
     exit_input=input()
