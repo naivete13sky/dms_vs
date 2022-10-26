@@ -9,6 +9,9 @@
         "password": "123456",
         "database": "test"
     },
+    "epcam": {
+        "path": "C:\\cc\\ep_local\\product\\EP-CAM\\version\\20221017\\EP-CAM_beta_2.29.055_s15_jiami\\Release"
+    },
     "else": {
         "url": "https://www.baidu.com/",
         "path": "config/",
