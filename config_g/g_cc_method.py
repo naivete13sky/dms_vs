@@ -92,6 +92,9 @@ class Asw():
             print(cmd)
             ret = self.exec_cmd(cmd)
             results_cmd.append(ret)
+            if ret !=0:
+                result = '比对异常！未能正常比对！请人工检查！'
+                return result
 
         with open(os.path.join(result_path_local,self.layer1 + '.txt'), 'r') as f:
             comp_result_text = f.readlines()[0].split(" ")[-1].strip()
