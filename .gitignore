@@ -1,4 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -140,9 +139,6 @@ dmypy.json
 cython_debug/
 
 
+
 # cc
-test_report/
-.idea
-config.xlsx
-~$config.xlsx
 config.json
