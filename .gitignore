@@ -142,3 +142,4 @@ cython_debug/
 
 # cc
 myconfig.json
+.myconfig.json
